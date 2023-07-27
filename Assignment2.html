@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="Assignment2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 style="color: #007bff; text-align: center;">Registration Form</h2>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-group">
+        <label for="website">Website:</label>
+        <input type="url" id="website" placeholder="https://www.example.com">
+      </div>
+      <div class="form-group">
+        <label for="image">Image:</label>
+        <input type="file" id="image" accept="image/*">
+      </div>
+      <div class="form-group">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+      <div class="form-group">
+        <label>Skills:</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="html" name="skills" value="HTML">
+          <label for="html">HTML</label>
+          <input type="checkbox" id="css" name="skills" value="CSS">
+          <label for="css">CSS</label>
+          <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+          <label for="javascript">JavaScript</label>
+        </div>
+      </div>
+      <button onclick="addEntry()">Submit</button>
+    </div>
+    <div class="output-container" id="table-container"></div>
+  </div>
+
+  <script src="Assignment2.js"></script>
+</body>
+</html>

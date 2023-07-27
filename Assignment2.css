@@ -1,0 +1,106 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      height: 100vh;
+    }
+	
+    .container {
+      display: flex;
+      max-width: 9000px; 
+    }
+	
+    .form-container {
+      flex: 1;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-right: 10px; 
+    }
+	
+    .output-container {
+      flex: 1;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+	
+    .form-group {
+      margin-bottom: 20px;
+    }
+	
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #555;
+    }
+	
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 6px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.3s ease;
+    }
+	
+    .form-group input:focus,
+    .form-group select:focus {
+      border-color: #007bff;
+    }
+	
+	.form-group .checkbox-group,
+    .form-group .radio-group {
+      display: flex;
+      align-items: baseline;
+    }
+	
+    .form-group .checkbox-group label,
+    .form-group .radio-group label {
+      margin-right: 15px;
+    }
+	
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+	
+    table th,
+    table td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+	
+    table th {
+      background-color: #007bff;
+      color: #fff;
+    }
+	
+    table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+	
+    table tr:hover {
+      background-color: #e0e0e0;
+    }
+	
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+	
+    button:hover {
+      background-color: #0056b3;
+    }
